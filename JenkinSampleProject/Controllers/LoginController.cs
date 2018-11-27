@@ -23,7 +23,7 @@ namespace JenkinSampleProject.Controllers
             {
                 if (logininfo.UserId == Constant.Id && logininfo.Password == Constant.Pswd)
                 {
-                    Session["UserName"] = logininfo.UserId;
+                    ViewBag.UserName = logininfo.UserId;
                     return RedirectToAction("UserHomeView");
                 }
                 else
