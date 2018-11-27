@@ -25,7 +25,7 @@ namespace JenkinSampleProject.Tests.Controllers
             // Act
             ActionResult result = controller.Login(model) as ViewResult;
             // Assert
-            Assert.IsNotNull(result);
+            Assert.IsNull(result);
         }
     }
 }
