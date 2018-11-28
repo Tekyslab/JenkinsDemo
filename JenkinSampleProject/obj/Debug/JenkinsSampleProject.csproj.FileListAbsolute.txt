@@ -53,7 +53,6 @@ E:\JenkinsTest\JenkinSampleProject\bin\Antlr3.Runtime.pdb
 E:\JenkinsTest\JenkinSampleProject\bin\System.Diagnostics.DiagnosticSource.xml
 E:\JenkinsTest\JenkinSampleProject\bin\Microsoft.AspNet.TelemetryCorrelation.xml
 E:\JenkinsTest\JenkinSampleProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-E:\JenkinsTest\JenkinSampleProject\obj\Debug\JenkinsSampleProject.csprojAssemblyReference.cache
 E:\JenkinsTest\JenkinSampleProject\obj\Debug\JenkinsSampleProject.csproj.CoreCompileInputs.cache
 E:\JenkinsTest\JenkinSampleProject\obj\Debug\JenkinsSampleProject.csproj.CopyComplete
 E:\JenkinsTest\JenkinSampleProject\obj\Debug\JenkinSampleProject.dll

@@ -19,7 +19,7 @@ namespace JenkinSampleProject.Tests.Controllers
         {
             // Arrange
             LoginController controller = new LoginController();
-            LoginModel model = new LoginModel();
+            LogOn model = new LogOn();
             model.UserId = "abc@xyz.com";
             model.Password = "MVC@123";
             // Act

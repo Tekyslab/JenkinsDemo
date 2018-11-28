@@ -17,7 +17,7 @@ namespace JenkinSampleProject.Controllers
 
         [HttpPost]
         //posting user credentials
-        public ActionResult Login(LoginModel logininfo)
+        public ActionResult Login(LogOn logininfo)
         {
             if (ModelState.IsValid)
             {

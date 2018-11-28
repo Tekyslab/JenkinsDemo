@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace JenkinSampleProject.Models
 {
-    public class LoginModel
+    public class LogOn
     {
         [Required(ErrorMessage = "UserId is required")]
         public string UserId { get; set; }
