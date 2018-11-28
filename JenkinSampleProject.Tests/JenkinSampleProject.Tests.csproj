@@ -105,9 +105,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\JenkinSampleProject\JenkinSampleProject.csproj">
+    <ProjectReference Include="..\JenkinSampleProject\JenkinsSampleProject.csproj">
       <Project>{68BC6D12-B878-49B1-873A-9CD20A6C2E7A}</Project>
-      <Name>JenkinSampleProject</Name>
+      <Name>JenkinsSampleProject</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
