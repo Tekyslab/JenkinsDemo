@@ -5,9 +5,9 @@ using System.Web;
 
 namespace JenkinSampleProject.Models
 {
-    public class Constant
+    public static class Constant
     {
         public static string Id { get; } = "abc@xyz.com";
-        public static string Pswd { get; } = "MVC@123";
+        public static string Password { get; } = "MVC@123";
     }
 }

@@ -17,13 +17,13 @@ namespace JenkinSampleProject.Controllers
 
         [HttpPost]
         //posting user credentials
-        public ActionResult Login(LoginModel logininfo)
+        public ActionResult Login(LogOn logininfo)
         {
             if (ModelState.IsValid)
             {
-                if (logininfo.UserId == Constant.Id && logininfo.Password == Constant.Pswd)
+                if (logininfo.UserId == Constant.Id && logininfo.Password == Constant.Password)
                 {
-                    Session["UserName"] = logininfo.UserId;
+                    ViewBag.UserName = logininfo.UserId;
                     return RedirectToAction("UserHomeView");
                 }
                 else
