@@ -21,7 +21,7 @@ namespace JenkinSampleProject.Controllers
         {
             if (ModelState.IsValid)
             {
-                if (logininfo. == Constant.Id && logininfo.Password == Constant.Password)
+                if (logininfo.UserId == Constant.Id && logininfo.Password == Constant.Password)
                 {
                     ViewBag.UserName = logininfo.UserId;
                     return RedirectToAction("UserHomeView");
