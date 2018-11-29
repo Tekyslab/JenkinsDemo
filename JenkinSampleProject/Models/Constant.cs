@@ -7,7 +7,7 @@ namespace JenkinSampleProject.Models
 {
     public static class Constant
     {
-        //constants
+        
         public static string Id { get; } = "jenkins@tl.com";
         public static string Password { get; } = "jenkins";
     }
