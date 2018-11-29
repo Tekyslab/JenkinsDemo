@@ -36,7 +36,7 @@ namespace JenkinSampleProject.Tests.Controllers
             ViewResult result = controller.About() as ViewResult;
 
             // Assert
-            Assert.AreEqual("Your application description page.", result.ViewBag.Message);
+            Assert.AreNotEqual("Your application description page.", result.ViewBag.Message);
         }
 
         [Test]
@@ -49,7 +49,7 @@ namespace JenkinSampleProject.Tests.Controllers
             ViewResult result = controller.Contact() as ViewResult;
 
             // Assert
-            Assert.IsNotNull(result);
+            Assert.IsNull(result);
         }
     }
 }
