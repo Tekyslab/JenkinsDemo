@@ -57,3 +57,4 @@ E:\JenkinsTest\JenkinSampleProject\obj\Debug\JenkinsSampleProject.csproj.CoreCom
 E:\JenkinsTest\JenkinSampleProject\obj\Debug\JenkinsSampleProject.csproj.CopyComplete
 E:\JenkinsTest\JenkinSampleProject\obj\Debug\JenkinSampleProject.dll
 E:\JenkinsTest\JenkinSampleProject\obj\Debug\JenkinSampleProject.pdb
+E:\JenkinsTest\JenkinSampleProject\obj\Debug\JenkinsSampleProject.csprojAssemblyReference.cache
