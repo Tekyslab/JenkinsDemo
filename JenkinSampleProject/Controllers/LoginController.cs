@@ -23,7 +23,6 @@ namespace JenkinSampleProject.Controllers
             {
                 if (logininfo.UserId == Constant.Id && logininfo.Password == Constant.Password)
                 {
-                    //Storing user name in view bag
                     ViewBag.UserName = logininfo.UserId;
                     return RedirectToAction("UserHomeView");
                 }
