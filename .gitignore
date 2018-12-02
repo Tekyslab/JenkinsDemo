@@ -3,11 +3,7 @@
 ################################################################################
 
 /packages
-*.pdb 
-*.bak 
-*.dll
-*.lib 
-packages/ 
-/bin
-/obj 
-.vs/
+.vs/JenkinSampleProject/v15/Server/sqlite3/db.lock
+.vs/JenkinSampleProject/v15/Server/sqlite3/storage.ide-wal
+.vs/JenkinSampleProject/v15/Server/sqlite3/storage.ide-shm
+.vs/JenkinSampleProject/v15/Server/sqlite3/storage.ide
