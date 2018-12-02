@@ -24,7 +24,6 @@ namespace JenkinSampleProject.Controllers
             {
                 if (logininfo.UserId == Constant.Id && logininfo.Password == Constant.Password)
                 {
-                    //ViewBag.UserLogin = true ;
                     TempData["IsLoggedIn"] = true;
                     return RedirectToAction("UserHomeView");
                 }
