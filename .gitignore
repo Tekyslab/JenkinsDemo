@@ -7,8 +7,7 @@
 *.bak 
 *.dll
 *.lib 
-.gitignore
 packages/ 
-*/bin/
-*/obj/ 
-/.vs
+/bin
+/obj 
+.vs/
