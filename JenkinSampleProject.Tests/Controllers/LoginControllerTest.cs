@@ -20,8 +20,8 @@ namespace JenkinSampleProject.Tests.Controllers
             // Arrange
             LoginController controller = new LoginController();
             LogOn model = new LogOn();
-            model.UserId = "abc@xyz.com";
-            model.Password = "MVC@123";
+            model.UserId = "jenkins@tl.com";
+            model.Password = "jenkins";
             // Act
             ActionResult result = controller.Login(model) as ViewResult;
             // Assert

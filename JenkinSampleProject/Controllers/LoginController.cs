@@ -12,6 +12,7 @@ namespace JenkinSampleProject.Controllers
         //default index
         public ActionResult Login()
         {
+            TempData["IsLoggedIn"] = false;
             return View();
         }
 
@@ -23,21 +24,29 @@ namespace JenkinSampleProject.Controllers
             {
                 if (logininfo.UserId == Constant.Id && logininfo.Password == Constant.Password)
                 {
-                    //Storing user name in view bag
-                    ViewBag.UserName = logininfo.UserId;
+                    TempData["IsLoggedIn"] = true;
                     return RedirectToAction("UserHomeView");
                 }
                 else
                 {
                     ModelState.AddModelError("", "Invalid username or password");
+                    TempData["IsLoggedIn"] = false;
                     return View("Login");
                 }
             }
+            TempData["IsLoggedIn"] = false;
             return View("Login");
+        }
+
+        public ActionResult Logout()
+        {
+            TempData["IsLoggedIn"] = false;
+            return RedirectToAction("Login", "Login");
         }
         //If login success navigate to LandingPage
         public ActionResult UserHomeView()
         {
+            TempData["IsLoggedIn"] = true;
             return View();
         }
     }
